@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* .smallElement{
+  position: static;
+  background-color: rgb(95, 153, 241);
+  padding: 10px;
+  left: 10px;
+  bottom: 10px;
+} */
+.mainElement{
+  background-color: #f09393;
+  padding: 10px;
+}
+/* .smallElement{
+  position: relative;
+  background-color: rgb(95, 153, 241);
+  padding: 10px;
+  left: 10px;
+  bottom: 10px;
+} */
+/* .smallElement{
+  position: absolute;
+  background-color: rgb(95, 153, 241);
+  padding: 10px;
+  left: 10px;
+  bottom: 10px;
+} */
+html{
+  height: 800px;
+}
+/* .smallElement{
+  position: fixed;
+  background-color: rgb(95, 153, 241);
+  padding: 10px;
+  left: 10px;
+  bottom: 10px;
+} */
+.smallElement{
+  position: sticky;
+  background-color: rgb(95, 153, 241);
+  padding: 10px;
+  top: 10px;
+}
+.mainDiv{
+  position: relative;
+  height: 800px;
+  padding: 50px 10px;
+  background-color: rgb(222, 240, 134);
+}
