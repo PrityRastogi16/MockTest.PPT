@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.nav-bar{
+   display: flex;
+   justify-content: space-between;
+}
+a{
+   text-decoration: none;
+   color: black;
+   padding: 18px 20px;
+   float: left;
+}
+.login{
+  padding: 4px 20px;
+  margin-top: 15px;
+  background-color: #fff;
+  columns: #000;
+  border-radius: 30px;
+}
+.signUp{
+  padding: 4px 20px;
+  margin-top: 15px;
+  background-color: rgb(251, 236, 27);
+  color: #000;
+  border-radius: 30px;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+.left-area{
+  margin-top: 13%;
+  margin-left: 15%;
+
+}
+p{
+  margin-top: 15px;
+}
+.ryt-area{
+  margin-top: 20px;
+}
+img{
+  height: 40em;
+  width: 50em;
+  border-radius: 5px;
+}
